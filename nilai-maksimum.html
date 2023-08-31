@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = prompt("Masukkan angka pertama!", "");
+        let b = prompt("Masukkan angka kedua!", "");
+        let c = prompt("Masukkan angka ketiga!", "");
+
+        if (a >= b && a >= c) {
+            alert(`Nilai Maksimum adalah ${a}`);
+        } else if(b >= a && b >= c) {
+            alert(`Nilai Maksimum adalah ${b}`);
+        }else{
+            alert(`Nilai Maksimum adalah ${c}`);
+        }
+    </script>
+</body>
+</html>
